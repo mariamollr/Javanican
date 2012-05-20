@@ -51,11 +51,28 @@ body {
 	font-size: 14px;
 }
 
-li {
-	color: black;
-	padding-top: 20px;
-	text-align: center;
+
+
+.calendar iframe {
+
+}
+
+.navbar {
+	width: 100%;
+	float: left;
 	list-style: none;
+	margin-left: 120px;
+	
+}
+
+.navbar li {
+	float: left;
+	font-size: 18pt;
+	margin-left: 20px;
+}
+
+.navbar li a {
+	color: #4B2A82;
 }
 
 

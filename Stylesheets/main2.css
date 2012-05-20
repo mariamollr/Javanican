@@ -1,6 +1,6 @@
 body {
         background: url(purple2copy.JPG) no-repeat;
-	background-color: #FFFFC3;
+	background-color: #EEEDF8;
 	background-size: 1280px;
         font-family: sans-serif;
         font-size: 13px;
@@ -82,7 +82,6 @@ li {
 	text-align: center;
 	list-style: none;
 	display: inline;
-
 }
 
 .menu li a {
@@ -102,6 +101,7 @@ li {
 }
 
 .content{
+	width: 100%;
 	
 }
  
@@ -127,6 +127,39 @@ li {
 	float:right	
 }
 
+.calendar iframe{
+	border: hidden;
+	margin-left: -150px;
+	margin-top: 80px;
+	width: 600px;
+	height: 400px;
+}
+
+.textsection {
+	width: 550px;
+	margin-left: 500px;
+	margin-top: -400px;
+}
+
+.textsection p {
+	font-family: cambria;
+	font-size: 14pt;
+	color: #2E0571;
+}
+
+h2 {
+	font-family: Comic Sans MS;
+	font-size: 18pt;
+	color: #2E0571;
+}
+
+.map iframe{
+	border: hidden;
+	margin-left: -150px;
+	margin-top: 80px;
+	width: 600px;
+	height: 400px;
+}
 
 
 
