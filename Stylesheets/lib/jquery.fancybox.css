@@ -162,6 +162,7 @@
 	display: none;
 	z-index: 1001;
 	background: #000;
+	margin-top: -100px;
 }
 
 /* Title helper */
