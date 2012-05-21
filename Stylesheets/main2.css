@@ -162,11 +162,11 @@ li {
 }
  
 .pics {
-	margin: 40px 0 0 760px
+	margin: -280px 0 0 735px
 }
 
 .pics img {
-	width: 350px
+	width: 450px
 
 }
 
@@ -190,7 +190,7 @@ li {
 .frame img{
 	display: block;
 	 margin-left: auto;
-    margin-right: auto
+	margin-right: auto
 }
 
 h1 {
@@ -207,7 +207,8 @@ h1 {
 .footer {
 	text-align: center;
 	color: #000000;
-	position: relative
+	position: relative;
+	padding-top: 40px
 }
 
 .calendar iframe{
@@ -230,6 +231,18 @@ h1 {
 	color: #2E0571;
 }
 
+.textsectionhome {
+	width: 550px;
+	margin-top: 130px;
+	margin-left: 100px
+}
+
+.textsectionhome p {
+	font-family: cambria;
+	font-size: 14pt;
+	color: #2E0571;
+}
+
 h2 {
 	font-family: Comic Sans MS;
 	font-size: 18pt;
@@ -243,8 +256,6 @@ h2 {
 	width: 600px;
 	height: 400px;
 }
-
-
 
 
 
