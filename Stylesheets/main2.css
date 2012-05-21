@@ -102,7 +102,7 @@ li {
 
 .content{
 	width: 100%;
-	
+	margin: 50px 50px 50px 50px;
 }
  
 .pics {
@@ -161,7 +161,22 @@ h2 {
 	height: 400px;
 }
 
+.gallery_list {
+	margin-left: 70px;
+}
 
+.thumbnail img  {
+	margin: 0 0 0 0;
+        width: 160px
+}
+
+.thumbnail {
+        list-style: none;
+        position: relatives;
+        width: 150px;
+        float: left;
+	margin: 50px 50px 0px 0px; 
+}
 
 
 
