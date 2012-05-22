@@ -1,5 +1,5 @@
 body {
-        background: url(Samle4.png) no-repeat;
+        background: url(header_image.png) no-repeat;
 	background-color: #E0E0F8;
 	background-size: 1280px;
         font-family: sans-serif;
@@ -159,6 +159,7 @@ li {
 .content{
 	width: 100%;
 	margin: 50px 50px 50px 50px;
+	min-height: 400px;
 }
  
 .pics {
@@ -265,19 +266,21 @@ h2 {
 
 .map iframe{
 	border: hidden;
-	margin-left: 100px;
+	margin-left: 150px;
 	margin-top: 80px;
 	width: 600px;
 	height: 400px;
 }
 
 .gallery_list {
-	margin-left: 70px;
+	margin-left: 80px;
+	margin-top: 100px;
 }
 
 .thumbnail img  {
 	margin: 0 0 0 0;
-        width: 160px
+        width: 160px;
+	height: 125px;
 }
 
 .thumbnail {
