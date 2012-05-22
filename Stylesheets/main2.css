@@ -14,9 +14,11 @@ body {
 }
 
 
+
 .container2 {
         margin: 0 0 0 0;  
         padding: 0 0 0 10px;
+
 }
 
 .header2{
@@ -159,7 +161,7 @@ li {
 }
  
 .pics {
-	margin: -280px 0 0 735px
+	margin: -120px 0 0 685px
 }
 
 .pics img {
@@ -236,6 +238,9 @@ h1 {
 }
 
 .textsectionhome p {
+	font-family: cambria;
+	font-size: 14pt;
+	color: #2E0571;
 }
 
 .textsection2 {
