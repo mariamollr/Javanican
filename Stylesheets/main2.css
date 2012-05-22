@@ -23,7 +23,7 @@ body {
 }
 
 .header2{
-	color:#FFFFC3;
+	color:#E0E0F8;
         font-size: 60px;
         letter-spacing: 1px;
         text-align: center;
@@ -32,7 +32,7 @@ body {
 }
 
 .header2 a{
-        color: #FFFFC3;
+        color: #E0E0F8;
         text-decoration: none;
 	font-family: fantasy
 }
@@ -99,15 +99,15 @@ li {
 }
 
 .menu li a:hover {
-	color: #FFFFC3;
+	color: #E0E0F8;
 
 }
 .menu a:hover{
-        color:#FFFFC3;
+        color:#E0E0F8;
 }
 
 .menu li a.selected {
-	color: #FFFFC3;
+	color: #E0E0F8;
 }
 
 .menu li ul {
@@ -152,7 +152,7 @@ li {
 
 } 
 .menu li li a:hover {
-	background-color: #dedede;
+	background-color: #E0E0F8;
         }
 
 
