@@ -1,6 +1,6 @@
 body {
-        background: url(Samle4.png) no-repeat;
-	background-color: #E0E0F8;
+        background: url(purple3.jpg) no-repeat;
+        
 	background-size: 1280px;
         font-family: sans-serif;
         font-size: 13px;
@@ -16,9 +16,10 @@ body {
 
 
 .container2 {
+        
         margin: 0 0 0 0;  
         padding: 0 0 0 10px;
-	
+
 
 }
 
@@ -287,4 +288,3 @@ h2 {
         float: left;
 	margin: 50px 50px 0px 0px; 
 }
-
