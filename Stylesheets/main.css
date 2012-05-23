@@ -4,6 +4,15 @@ body {
 	background: #F6EDD3;
 }
 
+p {
+	color: black;
+	font-size: 11pt;
+}
+
+a {
+	color: darkblue;
+}
+
 .container {
 	width: 970px;
 	margin: 10px auto;
@@ -48,9 +57,16 @@ body {
 	margin-right: auto;
 	padding-bottom: 20px
 	}
+
 	
 #body_main .headline {
 	font-family:fantasy;
+
+}
+
+#body_main h1 {
+	font-family:fantasy;
+	margin-top:20px;
 
 	text-align:center
 }
@@ -67,19 +83,18 @@ body {
 	font-size: medium
 }
 
-
-.body_left {
+#body_main .body_left {
 	float: left;
-	width: 213px;
-	height: 400px;
-	margin: 0;
+	width: 203px;
+	margin: 10px;
 	border: black 0px solid;
 	text-align: left;
 	padding: 10px 0 0 7px;
-	background: #E3B9FF;
+	background: #B2ABDA;
+	min-height: 470px;
 }
 
-.body_right {
+#body_main .body_right {
 	background: white;
 	float: right;
 	width: 685px;
