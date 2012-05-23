@@ -167,7 +167,9 @@ li {
 }
 
 .pics img {
-	width: 450px
+	
+	width: 450px;
+	height: 300;
 
 }
 
@@ -184,11 +186,10 @@ li {
 	float:right	
 }
 
-
 .frame {
-	margin: 30px 0 0 0;
+	margin: 20px 0 0 0;
 }
-.frame img{
+.frame img {
 	display: block;
 	 margin-left: auto;
 	margin-right: auto
