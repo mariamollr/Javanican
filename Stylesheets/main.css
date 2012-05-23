@@ -16,11 +16,11 @@ a {
 .container {
 	width: 970px;
 	margin: 10px auto;
-	background: #946BD6;
+	background: #A68064;
 }
 
 .header {
-	background: #4B2A82;
+	background: url("banner.png");
 	height: 250px;
 	padding: 0;
 	margin: 0;
@@ -67,7 +67,7 @@ a {
 	border: black 0px solid;
 	text-align: left;
 	padding: 10px 0 0 7px;
-	background: #B2ABDA;
+	background: #D7BFAE;
 	min-height: 470px;
 }
 
@@ -159,7 +159,7 @@ li {
 
 .footer {
 	height: 48px;
-	border: 1px solid black;
+	border: 0px solid black;
 }
 
 .footer .twitter {
@@ -233,6 +233,7 @@ li {
 }
 
 .thumbnail img  {
+	border: none;
 	margin: 0 0 0 0;
         width: 160px;
 	height: 125px;
