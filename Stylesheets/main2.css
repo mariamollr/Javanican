@@ -153,7 +153,7 @@ li {
 } 
 .menu li li a:hover {
 	background-color: #E0E0F8;
-        }
+}
 
 
 .content{
@@ -253,7 +253,6 @@ h1 {
 }
 
 .textsection2 p {
-
 	font-family: cambria;
 	font-size: 14pt;
 	color: #2E0571;
@@ -290,5 +289,9 @@ h2 {
         width: 150px;
         float: left;
 	margin: 50px 50px 0px 0px; 
+}
+.timeline {
+	height: 150px;
+	border: 1px solid #aaa;
 }
 
