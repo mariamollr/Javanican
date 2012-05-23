@@ -42,6 +42,24 @@ a {
 	min-height: 500px;
 }
 
+#body_main img {
+	margin-top:20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#body_main h1 {
+	font-family:fantasy;
+	margin-top:20px;
+	text-align:center
+}
+
+#body_main h1 a {
+	color: #946BD6;
+	font-size: medium
+}
+
 #body_main .body_left {
 	float: left;
 	width: 203px;
