@@ -30,7 +30,7 @@ body {
 	padding: 0;
 	border: none;
 	background: white;
-	min-height: 360px;
+	min-height: 500px;
 }
 
 .body_left {
@@ -189,16 +189,18 @@ li {
 }
 
 #body_main .map {
+	float: right;
 	border: hidden;
-	margin-left: 150px;
-	margin-top: 80px;
-	width: 600px;
-	height: 400px;
+	margin: 40px 40px 20px 0;
 }
 
-.gallery_list {
-	margin-left: 80px;
-	margin-top: 100px;
+#body_main .textsection2 {
+	float: left;
+	margin: 60px;
+}
+
+#body_main .gallery_list {
+	
 }
 
 .thumbnail img  {
@@ -212,7 +214,9 @@ li {
         position: relatives;
         width: 150px;
         float: left;
-	margin: 50px 50px 0px 0px; 
+	margin-left: 54px;
+	margin-bottom: 0px;
+	margin-top: 20px;
 }
 
 
