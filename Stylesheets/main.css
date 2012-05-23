@@ -31,7 +31,15 @@ body {
 	border: none;
 	background: white;
 	min-height: 360px;
+	
 }
+
+#body_main img {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
 
 .body_left {
 	float: left;
