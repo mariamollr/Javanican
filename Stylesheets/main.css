@@ -36,10 +36,12 @@ body {
 .body_left {
 	float: left;
 	width: 213px;
+	height: 400px;
 	margin: 0;
 	border: black 0px solid;
 	text-align: left;
 	padding: 10px 0 0 7px;
+	background: #E3B9FF;
 }
 
 .body_right {
