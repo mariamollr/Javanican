@@ -1,8 +1,8 @@
 body {
-        background: url(purple3.jpg) no-repeat;
-        
 	background-size: 1280px;
-        font-family: sans-serif;
+	background-color: #462E5C;
+
+        font-family: chalkdust;
         font-size: 13px;
         line-height: 18px;
         color: #A9A9A9;
@@ -11,34 +11,58 @@ body {
         top: 100px;
         left: 0;
         right: 0;
+	font-family: chalkdust
 }
 
+@font-face {
+	font-family: chalkdust;
+	src: url('chalkdust.ttf');
+	
+}
+
+@font-face {
+	font-family: neon;
+	src: url('Neon.ttf');
+}
+
+.menutext {
+	color:#ffffff;
+	font-family:chalkdust;
+	margin: -640px 0 0 170px
+}
+
+.menutext p{
+	color:#ffffff;
+	font-family:chalkdust
+}
 
 
 .container2 {
         
-        margin: 0 0 0 0;  
+        margin:0 0 0 150px;
         padding: 0 0 0 10px;
+	width: 900px;
+	background-color:#ffffff;
+	border:6px #940000 solid;
 
 
 }
 
 .header2{
-	color:#FFFFC3;
+	color:#6D38C2;
         font-size: 60px;
         letter-spacing: 1px;
-        text-align: center;
-	margin: -35px
+        text-align: left;
+	margin: 30px;
 
 }
 
 .header2 a{
-        color: #FFFFC3;
-        text-decoration: none;
-	font-family: fantasy
+        color: #6B4D96;
+	outline-color: #6D38C2;
+	text-decoration: none;
+	font-family: neon
 }
-
-
 
 .transbox {
 	width: 1000px;
@@ -74,9 +98,8 @@ body {
 
 .menu {
 	font-size: 20px;
-	margin: 70px 0 0 320px;
+	margin: 70px 0 0 100px;
 	padding: 0;
-
 	height: 1em;
 	
 }
@@ -91,7 +114,7 @@ li {
 
 .menu li a {
 	text-decoration: none;
-	color: #000000;
+	color: #6D38C2;
 	font-family: fantasy;
 	display: block;
 	padding: 4px 60px 3px 15px;
@@ -100,15 +123,15 @@ li {
 }
 
 .menu li a:hover {
-	color: #FFFFC3;
+	color: #ffffff;
 
 }
 .menu a:hover{
-        color:#FFFFC3;
+	color: #6D38C2;
 }
 
 .menu li a.selected {
-	color: #FFFFC3;
+	color: #6D38C2;
 }
 
 .menu li ul {
@@ -242,7 +265,7 @@ h1 {
 .textsectionhome p {
 	font-family: cambria;
 	font-size: 14pt;
-	color: #2E0571;
+	color: #000000;
 }
 
 .textsection2 {
