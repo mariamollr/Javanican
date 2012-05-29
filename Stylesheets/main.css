@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-	background: url("banner.png");
+	background: url("lp2.png");
 	height: 250px;
 	padding: 0;
 	margin: 0;
@@ -319,6 +319,107 @@ li {
 	top: 0;
 	left: 0;
 	overflow: hidden;
+}
+
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.stunicholls.com/menu/photo_click.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+
+
+#gallery {
+	width:970px;
+	min-height: 500px;
+	position:relative;
+	border:1px solid #ddd;
+	background: white;
+}
+
+#gallery ul {
+	padding: 5px;
+	list-style:none;
+	margin: 40px 0 0 0;
+	width:350px;
+	float:right;
+	height:400px;
+	overflow:auto;
+}
+
+#gallery ul li {
+	display: block;
+	width:100px;
+	height: 80px;
+	float:left;
+	margin:0 5px 5px 0;
+	border:1px solid lightgrey;
+	cursor:pointer;
+}
+
+#gallery ul li img {
+	display:block;
+	width: 100px;
+	height: 80px;
+	margin-top: -6px;
+}
+
+#gallery ul li span {
+	display:none;
+	position:absolute;
+	margin-left:40px;
+	margin-top:450px;
+	width:600px;
+	font-family:verdana,
+	arial, sans-serif;
+	color:#06a;
+	font-size:11px;
+	line-height:15px;
+	text-align:justify;
+}
+
+#gallery ul li span b {
+	color:#444;
+}
+
+/* required for IE5.x and IE6 to display the start image size correctly */
+#gallery ul li.click i img.default {
+	margin:5px auto 0 auto;
+	border:1px solid #fff;
+	width:320px; height:240px;
+}
+
+#gallery ul li.off {
+	display:none;
+}
+
+#gallery ul li.click {
+	border-color:#fc0;
+	cursor:default;
+	background:#f8f8f8;
+}
+
+#gallery ul li.click i {
+	position:absolute;
+	left:40px;
+	top:40px;
+	width:545px;
+	height:355px;
+}
+
+#gallery ul li.click i img {
+	margin:5px auto 0 auto;
+	width:auto;
+	height:auto;
+	border:1px solid #fff;
+}
+
+#gallery ul li.click span {
+	display:block;
 }
 
 
