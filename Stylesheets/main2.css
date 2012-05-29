@@ -163,7 +163,8 @@ li {
 }
  
 .pics {
-	margin: -120px 0 0 685px
+	margin: -120px 0 0 0;
+	padding: 0 20px 0 0
 }
 
 .pics img {

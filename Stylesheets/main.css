@@ -17,6 +17,28 @@ body {
 	margin: 0;
 	border: none;
 }
+#body_main .pics {
+	border: hidden;
+
+
+}
+
+#body_main .pics img {
+	width: 280px;
+	margin: -275px 0 0 350px;
+}
+
+#body_main .pics2 {
+	border: hidden;
+
+}
+
+#body_main .pics2 img {
+	width: 400px;
+	margin: -275px 0 0 350px;
+
+
+}
 
 #mainContainer {
 	margin: 0;
@@ -37,7 +59,6 @@ body {
 	border: hidden;
 	margin-left: auto;
 	margin-right: auto;
-
 	
 }
 
@@ -81,13 +102,48 @@ body {
 
 #body_main .body_right {
 	background: white;
-	float: right;
-	width: 685px;
+	float: left;
+	width: 600px;
 	margin: 0;
-	padding: 15px 20px 15px 30px;
+	padding: 25px 20px 15px 30px;
 	border: black 0px solid;
 	text-align: left;
 	display: block;
+}
+#body_main .body_right p{
+	background: white;
+	float: left;
+	width: 600px;
+	margin: 0;
+	padding: 13px 20px 10px 10px;
+	border: black 0px solid;
+	text-align: left;
+	display: block;
+	font-family: fantasy;
+	font-size: 26px
+	
+}
+
+#body_main .imagefront {
+	margin: 0;
+	width: 677px;
+	height: 262px;
+	margin: 0;
+	background: white;
+	float: left;
+	display: block;
+	padding: 5px 20px 15px 30px;
+	position:relative;
+	border: solid thin #946BD6;
+
+	
+}
+
+
+
+h2 {
+	font-family:fantasy;
+	padding-bottom:20px
 }
 
 .menu {
@@ -256,8 +312,49 @@ li {
 	margin-bottom: 0px;
 	margin-top: 20px;
 }
+.dumbCrossFade {
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
 
 
+
+#change-big {
+	width: 385px;
+	height:282px
+}
+
+#change-thin {
+	width:162px;
+	height:282px;
+	left:385px
+}
+#change-small {
+	left:547px;
+	width:180px;
+	height:140px
+}
+
+.dumbItem {
+	z-index: 99;
+	display: none
+}
+
+#still {
+	margin: 140px 0 0 547px;
+
+}
+
+#still img {
+	width:180px;
+	height: 142px
+
+
+}
 
 
 
