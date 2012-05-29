@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-	background: url("gallery_hd.png");
+	background: url("lp2.png");
 	height: 250px;
 	padding: 0;
 	margin: 0;
@@ -278,8 +278,9 @@ way to fit your requirements.
 }
 
 #gallery ul {
+	padding: 5px;
 	list-style:none;
-	margin-top: 40px;
+	margin: 40px 0 0 0;
 	width:350px;
 	float:right;
 	height:400px;
@@ -287,25 +288,27 @@ way to fit your requirements.
 }
 
 #gallery ul li {
-	display:inline;
-	width:120px;
+	display: block;
+	width:100px;
+	height: 80px;
 	float:left;
-	margin:0 20px 20px 0;
-	border:1px solid #444;
+	margin:0 5px 5px 0;
+	border:1px solid lightgrey;
 	cursor:pointer;
 }
 
 #gallery ul li img {
 	display:block;
-	width:120px;
-	height: 100px;
+	width: 100px;
+	height: 80px;
+	margin-top: -6px;
 }
 
 #gallery ul li span {
 	display:none;
 	position:absolute;
-	left:40px;
-	top:450px;
+	margin-left:40px;
+	margin-top:450px;
 	width:600px;
 	font-family:verdana,
 	arial, sans-serif;
@@ -323,6 +326,7 @@ way to fit your requirements.
 #gallery ul li.click i img.default {
 	margin:5px auto 0 auto;
 	border:1px solid #fff;
+	width:320px; height:240px;
 }
 
 #gallery ul li.off {
