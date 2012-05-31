@@ -1,7 +1,7 @@
 body {
 	color: #70523D;
 	font: 92%/1.5 "Times New Roman";
-	background: #F6EDD3;
+	background: #F7E4CC;
 }
 
 .container {
@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-	background: url("banner.png");
+	background: url("lp2.png");
 	height: 250px;
 	padding: 0;
 	margin: 0;
@@ -19,8 +19,6 @@ body {
 }
 #body_main .pics {
 	border: hidden;
-
-
 }
 
 #body_main .pics img {
@@ -36,8 +34,6 @@ body {
 #body_main .pics2 img {
 	width: 400px;
 	margin: -275px 0 0 350px;
-
-
 }
 
 #mainContainer {
@@ -110,6 +106,7 @@ body {
 	text-align: left;
 	display: block;
 }
+
 #body_main .body_right p{
 	background: white;
 	float: left;
@@ -134,9 +131,7 @@ body {
 	display: block;
 	padding: 5px 20px 15px 30px;
 	position:relative;
-	border: solid thin #946BD6;
-
-	
+	border: solid thin #946BD6;	
 }
 
 
@@ -453,8 +448,11 @@ way to fit your requirements.
 #still img {
 	width:180px;
 	height: 142px
+}
 
-
+.body_left img {
+	width: 150px;
+	margin-left: 20px; 
 }
 
 
