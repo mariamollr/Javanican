@@ -150,7 +150,8 @@ h2 {
 	font-size: 20px;
 	padding: 0;
 	height: 38px;
-	margin-left: 150px;
+	margin-left: 400px;
+	margin-top: -40px;
 }
 
 
@@ -165,7 +166,7 @@ li {
 	color: #000000;
 	font-family: fantasy;
 	display: block;
-	padding: 4px 60px 3px 15px;
+	padding: 4px 30px 3px 15px;
 	text-align: center;
 }
 
@@ -208,7 +209,7 @@ li {
 }
 	
 .menu li:hover li a {
-	background-color:#ffffff;
+	background-color:#A68064;
 	color: #000000;
 }
 	
@@ -218,7 +219,7 @@ li {
 }
 
 .menu li li a:hover {
-	background-color: #E0E0F8;
+	background-color: #ffffff;
 }
 
 .footer {
