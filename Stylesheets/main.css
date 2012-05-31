@@ -369,9 +369,9 @@ way to fit your requirements.
 #gallery ul li span {
 	display:none;
 	position:absolute;
-	margin-left: -550px;
-	margin-top:350px;
-	width:400px;
+	margin-left:40px;
+	margin-top:450px;
+	width:600px;
 	font-family:verdana,
 	arial, sans-serif;
 	color:#06a;
