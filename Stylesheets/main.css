@@ -11,6 +11,8 @@ body {
 }
 
 .header {
+	/*background: url("banner.png");
+	height: 250px;*/
 	background: url("lp4.png");
 	height: 200px;
 	padding: 0;
