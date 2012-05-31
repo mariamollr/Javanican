@@ -13,8 +13,6 @@ body {
         right: 0;
 }
 
-
-
 .container2 {
         margin: 0 0 0 0;  
         padding: 0 0 0 10px;
@@ -22,7 +20,7 @@ body {
 
 }
 
-.header2{
+.header2 {
 	color:#E0E0F8;
         font-size: 60px;
         letter-spacing: 1px;
@@ -31,7 +29,7 @@ body {
 
 }
 
-.header2 a{
+.header2 a {
         color: #E0E0F8;
         text-decoration: none;
 	font-family: fantasy
