@@ -11,8 +11,8 @@ body {
 }
 
 .header {
-	background: url("lp2.png");
-	height: 250px;
+	background: url("lp4.png");
+	height: 200px;
 	padding: 0;
 	margin: 0;
 	border: none;
@@ -93,7 +93,10 @@ body {
 	padding: 10px 0 0 7px;
 	background: #D7BFAE;
 	min-height: 470px;
+}
 
+#body_main .body_left p {
+	margin-left: 20px; 
 }
 
 #body_main .body_right {
@@ -145,7 +148,7 @@ h2 {
 	font-size: 20px;
 	padding: 0;
 	height: 38px;
-	margin-left: 400px;
+	margin-left: 360px;
 	margin-top: -40px;
 }
 
@@ -331,7 +334,6 @@ way to fit your requirements.
 
 #gallery {
 	width:970px;
-	min-height: 500px;
 	position:relative;
 	border:1px solid #ddd;
 	background: white;
@@ -386,7 +388,8 @@ way to fit your requirements.
 #gallery ul li.click i img.default {
 	margin:5px auto 0 auto;
 	border:1px solid #fff;
-	width:545px; height:335px;
+	width:545px;
+	height:335px;
 }
 
 #gallery ul li.off {
@@ -403,8 +406,8 @@ way to fit your requirements.
 	position:absolute;
 	left:40px;
 	top:40px;
-	width:545px;
-	height:355px;
+	max-width:545px;
+	max-height:355px;
 }
 
 #gallery ul li.click i img {
@@ -453,7 +456,6 @@ way to fit your requirements.
 
 .body_left img {
 	width: 150px;
-	margin-left: 20px; 
 }
 
 
