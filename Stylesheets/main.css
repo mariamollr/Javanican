@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-	background: url("lp2.png");
+	background: url("banner.png");
 	height: 250px;
 	padding: 0;
 	margin: 0;
@@ -372,9 +372,9 @@ way to fit your requirements.
 #gallery ul li span {
 	display:none;
 	position:absolute;
-	margin-left:40px;
-	margin-top:450px;
-	width:600px;
+	margin-left: -550px;
+	margin-top:350px;
+	width:400px;
 	font-family:verdana,
 	arial, sans-serif;
 	color:#06a;
@@ -391,7 +391,7 @@ way to fit your requirements.
 #gallery ul li.click i img.default {
 	margin:5px auto 0 auto;
 	border:1px solid #fff;
-	width:320px; height:240px;
+	width:545px; height:335px;
 }
 
 #gallery ul li.off {
