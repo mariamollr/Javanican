@@ -100,7 +100,7 @@ body {
 	background: white;
 	float: left;
 	width: 600px;
-	margin: 0;
+	margin: 10px 0 0 0;
 	padding: 25px 20px 15px 30px;
 	border: black 0px solid;
 	text-align: left;
@@ -125,7 +125,7 @@ body {
 	margin: 0;
 	width: 677px;
 	height: 262px;
-	margin: 0;
+	margin: 30px 0 0 0;
 	background: white;
 	float: left;
 	display: block;
