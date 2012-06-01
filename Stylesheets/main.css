@@ -2,12 +2,14 @@ body {
 	color: #70523D;
 	font: 92%/1.5 "Times New Roman";
 	background: #F7E4CC;
+	/*background: url(wall4.jpg);*/
 }
 
 .container {
 	width: 970px;
 	margin: 10px auto;
 	background: #A68064;
+	
 }
 
 .header {
