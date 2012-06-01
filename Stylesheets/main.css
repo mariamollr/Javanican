@@ -1,21 +1,20 @@
 body {
 	color: #70523D;
 	font: 92%/1.5 "Times New Roman";
-	background: #F7E4CC;
-	/*background: url(wall4.jpg);*/
+	/*background: #F7E4CC;*/
+	background: url("pattern1.gif");
 }
 
 .container {
 	width: 970px;
-	margin: 10px auto;
+	margin: 20px auto;
 	background: #A68064;
-	
 }
 
 .header {
 	/*background: url("banner.png");
 	height: 250px;*/
-	background: url("lp4.png");
+	background: url("lp.png");
 	height: 200px;
 	padding: 0;
 	margin: 0;
