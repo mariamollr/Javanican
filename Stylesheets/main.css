@@ -29,7 +29,8 @@ h1 {
 	padding-top: 50px;
 	font-stretch: extra-expanded;
 	font-size: 24pt;
-	letter-spacing: 2px;
+	letter-spacing: 10px;
+	color: #4F2F4F;
 }
 
 #body_main .pics {
@@ -63,7 +64,6 @@ h1 {
 	padding: 0;
 	border: none;
 	background: white;
-	min-height: 500px;
 }
 #body_main2 {
 	margin: 0;
@@ -163,7 +163,7 @@ h1 {
 
 h2 {
 	font-family:fantasy;
-	padding-bottom:20px
+
 }
 
 .menu {
@@ -191,15 +191,15 @@ li {
 }
 
 .menu li a:hover {
-	color: #E0E0F8;
+	color: #A68064;
 }
 
 .menu a:hover{
-        color:#E0E0F8;
+        color:#A68064;
 }
 
 .menu li a.selected {
-	color: #E0E0F8;
+	color: #A68064;
 }
 
 .menu li ul {
@@ -298,7 +298,7 @@ li {
 }
 
 #body_main .textsection {
-	margin: 80px 20px 20px 20px;
+	margin: 60px 20px 20px 20px;
 	width: 300px;
 	float: right;
 }
@@ -343,13 +343,31 @@ li {
 	overflow: hidden;
 }
 
-#gallery {
-	width:970px;
-	height: 650px;
+#events {
+	width:968px;
+	height: 500px;
 	position:relative;
 	border:1px solid #ddd;
 	background: white;
 }
+
+#gallery {
+	width:968px;
+	height: 700px;
+	position:relative;
+	border:1px solid #ddd;
+	background: white;
+}
+
+#map {
+	width:968px;
+	height: 500px;
+	position:relative;
+	border:1px solid #ddd;
+	background: white;
+}
+
+
 
 #gallery ul {
 	padding: 5px;
