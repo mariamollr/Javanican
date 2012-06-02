@@ -1,14 +1,16 @@
 body {
 	color: #70523D;
 	font: 92%/1.5 "Times New Roman";
-	/*background: #F7E4CC;*/
-	background: url("pattern1.gif");
+	/*background: #F7E4CC;
+	background: #A68064;*/
+	background: url('back1.png');
+	
 }
 
 .container {
 	width: 970px;
 	margin: 20px auto;
-	background: #A68064;
+	background: url("pattern1.gif");
 }
 
 .header {
@@ -16,10 +18,20 @@ body {
 	height: 250px;*/
 	background: url("lp.png");
 	height: 200px;
-	padding: 0;
+	padding-bottom:15px;
 	margin: 0;
 	border: none;
 }
+
+h1 {
+	font-family: 'Spicy Rice', cursive;
+	margin: 0 0 0 400px;
+	padding-top: 50px;
+	font-stretch: extra-expanded;
+	font-size: 24pt;
+	letter-spacing: 2px;
+}
+
 #body_main .pics {
 	border: hidden;
 }
@@ -323,20 +335,9 @@ li {
 	overflow: hidden;
 }
 
-/* ================================================================ 
-This copyright notice must be untouched at all times.
-
-The original version of this stylesheet and the associated (x)html
-is available at http://www.stunicholls.com/menu/photo_click.html
-Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
-This stylesheet and the associated (x)html may be modified in any 
-way to fit your requirements.
-=================================================================== */
-
-
-
 #gallery {
 	width:970px;
+	height: 650px;
 	position:relative;
 	border:1px solid #ddd;
 	background: white;
@@ -348,7 +349,7 @@ way to fit your requirements.
 	margin: 40px 0 0 0;
 	width:350px;
 	float:right;
-	height:400px;
+	height:610px;
 	overflow:auto;
 }
 
@@ -358,7 +359,6 @@ way to fit your requirements.
 	height: 80px;
 	float:left;
 	margin:0 5px 5px 0;
-	border:1px solid lightgrey;
 	cursor:pointer;
 }
 
@@ -390,34 +390,27 @@ way to fit your requirements.
 /* required for IE5.x and IE6 to display the start image size correctly */
 #gallery ul li.click i img.default {
 	margin:5px auto 0 auto;
-	border:1px solid #fff;
-	width:545px;
-	height:335px;
-}
-
-#gallery ul li.off {
-	display:none;
+	max-width:545px;
+	max-height:545px;
 }
 
 #gallery ul li.click {
-	border-color:#fc0;
-	cursor:default;
-	background:#f8f8f8;
+
+
 }
 
 #gallery ul li.click i {
 	position:absolute;
 	left:40px;
 	top:40px;
-	max-width:545px;
-	max-height:355px;
+
 }
 
 #gallery ul li.click i img {
 	margin:5px auto 0 auto;
 	width:auto;
 	height:auto;
-	border:1px solid #fff;
+
 }
 
 #gallery ul li.click span {
