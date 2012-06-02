@@ -130,7 +130,9 @@ h1 {
 	border: #946BD6 2px solid;
 	text-align: left;
 	display: block;
+	
 }
+
 
 #body_main2 .body_right p{
 	background: white;
@@ -141,10 +143,13 @@ h1 {
 	border: black 0px solid ;
 	text-align: left;
 	display: block;
-	font-family: fantasy;
-	font-size: 26px;
-	
+	font-family: neon;
+	font-size: 26px;	
 }
+
+
+
+
 
 #body_main2 .imagefront {
 	margin: 0;
@@ -156,7 +161,7 @@ h1 {
 	display: block;
 	padding: 5px 20px 15px 30px;
 	position:relative;
-	border: solid 2px #946BD6;	
+	border: solid 0px #946BD6;	
 }
 
 
@@ -170,7 +175,7 @@ h2 {
 	font-size: 20px;
 	padding: 0;
 	height: 38px;
-	margin-left: 360px;
+	margin-left: 340px;
 	margin-top: -40px;
 }
 
@@ -186,7 +191,7 @@ li {
 	color: #000000;
 	font-family: fantasy;
 	display: block;
-	padding: 4px 30px 3px 15px;
+	padding: 4px 25px 3px 15px;
 	text-align: center;
 }
 
