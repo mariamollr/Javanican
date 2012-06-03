@@ -4,6 +4,7 @@ body {
 	/*background: #F7E4CC;
 	background: #A68064;*/
 	background: url('back1.png');
+
 	
 }
 
@@ -16,7 +17,7 @@ body {
 .header {
 	/*background: url("banner.png");
 	height: 250px;*/
-	background: url("lp.png");
+	background: url("cover.png");
 	height: 200px;
 	padding-bottom:15px;
 	margin: 0;
@@ -24,13 +25,24 @@ body {
 }
 
 h1 {
-	font-family: 'Spicy Rice', cursive;
-	text-align:center;
-	padding-top: 50px;
+
+	font-family: 'Lemon', cursive;
+	margin: 0 0 0 370px;
+	padding-top: 60px;
 	font-stretch: extra-expanded;
-	font-size: 22pt;
+	font-size: 24pt;
+	letter-spacing: 5px;
+	color: #8B5A2B;
+}
+
+h3 {
+	font-family: 'Lemon', cursive;
+	margin: 0 0 0 650px;
+	padding-top: 10px;
+	font-stretch: extra-expanded;
+	font-size: 16pt;
 	letter-spacing: 10px;
-	color: #4F2F4F;
+	color: #8B5A2B;
 }
 
 #body_main .pics {
