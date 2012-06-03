@@ -32,7 +32,7 @@ h1 {
 	font-stretch: extra-expanded;
 	font-size: 24pt;
 	letter-spacing: 5px;
-	color: #5D478B;
+	color: #42426F;
 }
 
 h3 {
@@ -42,7 +42,7 @@ h3 {
 	font-stretch: extra-expanded;
 	font-size: 16pt;
 	letter-spacing: 10px;
-	color: #5D478B;
+	color: #42426F;
 }
 
 #body_main .pics {
@@ -156,7 +156,7 @@ h3 {
 }
 
 #body_main .headline h2 a {
-	color: #946BD6;
+	color: #48216F;
 	font-size: medium;
 }
 
@@ -268,7 +268,7 @@ color: #A68064
 	list-style: none;
 	display: none; 
 	width: 6em; /* Width to help Opera out */
-	font-size: 14px;
+	font-size: 16px;
 	float: left;
 	z-index:100;
 }
@@ -546,7 +546,3 @@ background: url("pattern1.gif");
 .body_left img {
 	width: 150px;
 }
-
-
-
-
