@@ -25,6 +25,7 @@ body {
 }
 
 h1 {
+
 	font-family: 'Lemon', cursive;
 	margin: 0 0 0 370px;
 	padding-top: 60px;
@@ -91,6 +92,47 @@ h3 {
 	
 }
 
+#body_main2 .body_about {
+	margin: 0;
+	width: 677px;
+	margin: 10px 0 0 0;
+	background: white;
+	float: left;
+	display: block;
+	padding: 5px 10px 5px 10px;
+	position:relative;
+	border: solid 0px #946BD6;
+}
+
+#body_main2 .body_about p {
+	font-size: 17px;
+	width: 400px;
+	float:left;
+	line-height:24px;
+	padding-bottom:15px
+
+}
+
+
+
+#body_main2 .body_about h2{
+	font-family:fantasy;
+	padding-top: 10px;
+	text-align:left;
+	padding-bottom:20px;
+	letter-spacing: 3px
+}
+
+#body_main2 .body_about img{
+	width: 275px;
+	float: right;
+	margin: -230px -45px 0 0;
+	padding: 0;
+}
+
+	
+
+
 #body_main .food img {
 	margin-top:10px;
 	display: block;
@@ -108,7 +150,8 @@ h3 {
 #body_main .headline h1 {
 	font-family:fantasy;
 	padding-top: 30px;
-	text-align:center
+	text-align:center;
+	letter-spacing: 2px;
 }
 
 #body_main .headline h1 a {
@@ -207,15 +250,15 @@ li {
 }
 
 .menu li a:hover {
-	color: #A68064;
+color: #A68064
 }
 
 .menu a:hover{
-        color:#A68064;
+color: #A68064
 }
 
 .menu li a.selected {
-	color: #A68064;
+color: #A68064
 }
 
 .menu li ul {
@@ -246,18 +289,19 @@ li {
 }
 	
 .menu li:hover li a {
-	background-color:#A68064;
+       background: url("pattern1.gif");
 	color: #000000;
 }
 	
 .menu li li a.selected {
-       background-color: #ffffff;
+       background: url("pattern1.gif");
+       font-weight: bold;
 
 }
 
 .menu li li a:hover {
-	background-color: #ffffff;
-}
+background: url("pattern1.gif");
+       font-weight: bold;}
 
 .footer {
 	height: 48px;
@@ -317,6 +361,12 @@ li {
 	margin: 60px 20px 20px 20px;
 	width: 300px;
 	float: right;
+	
+}
+
+#body_main .textsection p{
+	font-size: medium
+	
 }
 
 #body_main .map {
