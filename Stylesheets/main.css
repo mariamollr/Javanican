@@ -141,20 +141,21 @@ h3 {
 	padding-bottom: 20px
 	}
 	
-#body_main .headline {
+#body_main .headline h2 {
 	font-family:fantasy;
-	text-align:center
+	text-align:center;
+	line-height: 36px;
 }
 
 	
-#body_main .headline h1 {
+#body_main .headline h2{
 	font-family:fantasy;
 	padding-top: 30px;
 	text-align:center;
 	letter-spacing: 2px;
 }
 
-#body_main .headline h1 a {
+#body_main .headline h2 a {
 	color: #946BD6;
 	font-size: medium;
 }
