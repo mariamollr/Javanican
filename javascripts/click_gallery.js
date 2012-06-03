@@ -13,11 +13,11 @@ clickMenu = function(menu) {
 	var getAgn = getEls;
 
 	for (var i=0; i<getEls.length; i++) {
-			getEls[i].onclick=function() {
+			getEls[i].onmouseover=function() {
 				for (var x=0; x<getAgn.length; x++) {
 				getAgn[x].className=getAgn[x].className.replace("click", "");
 				}
 				this.className+=" click";
-				}
 			}
 		}
+	}
