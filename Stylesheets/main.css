@@ -4,13 +4,11 @@ body {
 	/*background: #F7E4CC;
 	background: #A68064;*/
 	background: url('pattern4.gif');
-
-	
 }
 
 .container {
 	width: 970px;
-	margin: 20px auto;
+	margin: 25px auto;
 	background: url("back1.png");
 }
 
@@ -19,9 +17,19 @@ body {
 	height: 250px;*/
 	background: url("cover.png");
 	height: 200px;
-	padding-bottom:15px;
-	margin-top: 20px;
-	border: none;
+	padding-bottom:27px;
+	margin-top: 15px;
+	border-style: none;
+}
+
+
+#box-link { 
+	position: absolute; 
+	top: 40px;
+	left: 160px; 
+	width: 320px; 
+	height: 200px; 
+	background-color: transparent; 
 }
 
 h1 {
@@ -129,9 +137,6 @@ h3 {
 	margin: -240px -45px 0 0;
 	padding: 0;
 }
-
-	
-
 
 #body_main .food img {
 	margin-top:10px;
@@ -242,7 +247,7 @@ h2 {
 	padding: 0;
 	height: 30px;
 	margin-left: 330px;
-	margin-top: -40px;
+	margin-top: -50px;
 }
 
 
@@ -349,6 +354,7 @@ background: url("back1.png");
 	float: left;
 	margin-left: 15px;
 	margin-top: 5px;
+	color: #D7BFAE;
 }
 
 #sidebar {
