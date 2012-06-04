@@ -3,7 +3,7 @@ body {
 	font: 92%/1.5 "Times New Roman";
 	/*background: #F7E4CC;
 	background: #A68064;*/
-	background: url('back1.png');
+	background: url('pattern4.gif');
 
 	
 }
@@ -11,7 +11,7 @@ body {
 .container {
 	width: 970px;
 	margin: 20px auto;
-	background: url("pattern1.gif");
+	background: url("back1.png");
 }
 
 .header {
@@ -20,29 +20,29 @@ body {
 	background: url("cover.png");
 	height: 200px;
 	padding-bottom:15px;
-	margin: 0;
+	margin-top: 20px;
 	border: none;
 }
 
 h1 {
 
-	font-family: 'Lemon', cursive;
-	margin: 0 0 0 370px;
+	font-family: 'Spicy Rice', cursive;
+	margin: 0 0 0 487px;
 	padding-top: 60px;
 	font-stretch: extra-expanded;
 	font-size: 24pt;
 	letter-spacing: 5px;
-	color: #5D478B;
+	color: #E3A869;
 }
 
 h3 {
-	font-family: 'Lemon', cursive;
-	margin: 0 0 0 650px;
+	font-family: 'Spicy Rice', cursive;
+	margin: 0 0 0 742px;
 	padding-top: 10px;
 	font-stretch: extra-expanded;
 	font-size: 16pt;
 	letter-spacing: 10px;
-	color: #5D478B;
+	color: #D7BFAE;
 }
 
 #body_main .pics {
@@ -252,7 +252,7 @@ li {
 
 .menu li a {
 	text-decoration: none;
-	color: #000000;
+	color: #D7BFAE;
 	font-family: fantasy;
 	display: block;
 	padding: 4px 25px 3px 15px;
@@ -260,15 +260,15 @@ li {
 }
 
 .menu li a:hover {
-color: #A68064
+color: #E3A869;
 }
 
 .menu a:hover{
-color: #A68064
+color: #E3A869;
 }
 
 .menu li a.selected {
-color: #A68064
+color: #E3A869;
 }
 
 .menu li ul {
@@ -369,7 +369,7 @@ background: url("pattern1.gif");
 }
 
 #body_main .textsection {
-	margin: 60px 20px 20px 20px;
+	margin: 62px 20px 20px 20px;
 	width: 300px;
 	float: right;
 	
@@ -556,7 +556,3 @@ background: url("pattern1.gif");
 .body_left img {
 	width: 150px;
 }
-
-
-
-
