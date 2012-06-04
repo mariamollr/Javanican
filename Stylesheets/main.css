@@ -180,7 +180,7 @@ h3 {
 	background: white;
 	float: left;
 	width: 596px;
-	margin: 10px 0 0 0;
+	margin: 10px 0 10px 0;
 	padding: 15px 98px 6px 30px;
 	border: #48216F solid 1px ;
 	text-align: left;
@@ -192,14 +192,16 @@ h3 {
 #body_main2 .body_right p{
 	background: white;
 	float: left;
-	width: 600px;
+	width: 650px;
 	margin: 0;
-	padding: 10px 10px 10px 10px;
+	padding: 10px 0 22px 0;
 	border: black 0px solid ;
 	text-align: left;
 	display: block;
-	font-family: neon;
-	font-size: 26px;	
+	font-family: 'Spicy Rice', cursive;
+	font-size: 26px;
+	color: #824AC2;
+	letter-spacing: 2px
 }
 #body_main2 .body_right img{
 	background: white;
@@ -300,19 +302,22 @@ color: #E3A869;
 }
 	
 .menu li:hover li a {
-       background: url("pattern1.gif");
-	color: #000000;
+       background: url("back1.png");
+	color: #D7BFAE;
 }
 	
 .menu li li a.selected {
-       background: url("pattern1.gif");
+       background: url("back1.png");
        font-weight: bold;
+       color: #E3A869
 
 }
 
 .menu li li a:hover {
-background: url("pattern1.gif");
-       font-weight: bold;}
+background: url("back1.png");
+       font-weight: bold;
+              color: #E3A869
+}
 
 .footer {
 	height: 48px;
