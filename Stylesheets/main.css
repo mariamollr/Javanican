@@ -126,7 +126,7 @@ h3 {
 #body_main2 .body_about img{
 	width: 275px;
 	float: right;
-	margin: -230px -45px 0 0;
+	margin: -240px -45px 0 0;
 	padding: 0;
 }
 
@@ -179,10 +179,10 @@ h3 {
 #body_main2 .body_right {
 	background: white;
 	float: left;
-	width: 600px;
+	width: 596px;
 	margin: 10px 0 0 0;
-	padding: 25px 98px 15px 30px;
-	border: #946BD6 2px solid;
+	padding: 15px 98px 6px 30px;
+	border: #48216F solid 1px ;
 	text-align: left;
 	display: block;
 	
@@ -201,6 +201,15 @@ h3 {
 	font-family: neon;
 	font-size: 26px;	
 }
+#body_main2 .body_right img{
+	background: white;
+	margin-left: 30px;
+	padding: 0 0 8px 0;
+	display: block;
+	height: 90px;
+	width: 700px
+}
+
 
 
 
@@ -229,7 +238,7 @@ h2 {
 .menu {
 	font-size: 20px;
 	padding: 0;
-	height: 38px;
+	height: 30px;
 	margin-left: 330px;
 	margin-top: -40px;
 }
@@ -283,6 +292,7 @@ color: #E3A869;
 	position: absolute;
 	margin: 0 0 0 8px;
 	padding: 0;
+	
 }
 	
 .menu li:hover li {
