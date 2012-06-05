@@ -3,7 +3,7 @@ body {
 	font: 92%/1.5 "Times New Roman";
 	/*background: #F7E4CC;
 	background: #A68064;*/
-	background: url('pattern4.gif');
+	background: url('pattern5.gif');
 }
 
 .container {
@@ -114,7 +114,7 @@ h3 {
 
 #body_main2 .body_about p {
 	font-size: 17px;
-	width: 400px;
+	width: 430px;
 	float:left;
 	line-height:24px;
 	padding-bottom:15px
@@ -366,7 +366,7 @@ background: url("back1.png");
 #body_main .calendar {
 	border: hidden;
 	width: 600px;
-	height: 400px;
+	height: 350px;
 	float: left;
 	margin: 20px 0 15px 20px; 
 }
@@ -374,7 +374,7 @@ background: url("back1.png");
 #body_main .calendar iframe {
 	border: hidden;
 	width: 600px;
-	height: 400px;
+	height: 350px;
 	float: left;
 	margin: 14px 0 15px 0; 
 }
