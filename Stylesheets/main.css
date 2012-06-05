@@ -77,6 +77,8 @@ h3 {
 	padding: 0;
 	border: inherit;
 	background: white;
+		min-height: 633px;
+
 }
 
 #body_main {
@@ -90,7 +92,7 @@ h3 {
 	padding: 0;
 	border: none;
 	background: white;
-	min-height: 433px;
+	min-height: 599px;
 }
 
 #body_main .food {
@@ -168,57 +170,109 @@ h3 {
 #body_main2 .body_left {
 	float: left;
 	width: 203px;
-	height: 403px;
+	height: 586px;
 	margin: 10px;
 	border: black 0px solid;
 	text-align: left;
 	padding: 10px 0 0 7px;
 	background: #D7BFAE;
-	min-height: 400px;
+	min-height: 590px;
 }
 
 #body_main2 .body_left p {
 	margin-left: 20px; 
 }
 
-#body_main2 .body_right {
+
+#body_main2 .event h4{
 	background: white;
 	float: left;
-	width: 596px;
-	margin: 10px 0 10px 0;
-	padding: 15px 98px 6px 30px;
-	border: #48216F solid 1px ;
+	width: 370px;
+	margin: 0;
+	float:left;
+	padding: 25px 0 8px 30px;
+	border: black 0px solid ;
 	text-align: left;
 	display: block;
-	
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #70523D;
+	letter-spacing: 1px
+}
+
+#body_main2 .event p{
+	background: white;
+	float: left;
+	width: 370px;
+	margin: 0px 0 0 30px;
+	padding: 0 0 0 0;
+	border: black 0px solid ;
+	text-align: left;
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #70523D;
+	letter-spacing: 0px
+}
+#body_main2 .event img{
+	width: 220px;
+	margin: 15px 200px 0 80px;
+	float: left;
 }
 
 
-#body_main2 .body_right p{
+#body_main2 .bagel h4{
+	background: white;
+	float: right;
+	width: 340px;
+	float: right;
+	margin: -215px 0 0 40px;
+	padding: 15px 0 0 0;
+	border: black 0px solid ;
+	text-align: left;
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #70523D;
+	letter-spacing: 1px
+}
+#body_main2 .bagel p{
+	background: white;
+	float: right;
+	width: 340px;
+	float: right;
+	margin: -174px 0 0 40px;
+	padding: 0 0 0 0;
+	border: black 0px solid ;
+	text-align: left;
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #70523D;
+	letter-spacing: 0px
+}
+
+#body_main2 .bagel img{
+	width: 210px;
+	margin: 25px 0 0 60px;
+	padding: 20px 0 0 0;
+}
+
+
+#body_main2 .quote p{
 	background: white;
 	float: left;
-	width: 650px;
-	margin: 0;
-	padding: 10px 0 22px 0;
+	width: 680px;
+	margin-left: 30px;
+	padding: 20px 0 20px 0;
 	border: black 0px solid ;
 	text-align: left;
 	display: block;
 	font-family: 'Spicy Rice', cursive;
-	font-size: 26px;
+	font-size: 22px;
 	color: #824AC2;
-	letter-spacing: 2px
+	letter-spacing: 3px
 }
-#body_main2 .body_right img{
-	background: white;
-	margin-left: 30px;
-	padding: 0 0 8px 0;
-	display: block;
-	height: 90px;
-	width: 700px
-}
-
-
-
 
 
 
