@@ -94,8 +94,10 @@ h3 {
 	padding: 0;
 	border: none;
 	background: white;
-	min-height: 438px;
+	min-height: 614px;
 }
+
+
 
 #body_main .food {
 	border: hidden;
@@ -104,7 +106,14 @@ h3 {
 	
 }
 
-#body_main2 .body_about {
+#body_main_about {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: white;
+	min-height: 440px;
+}
+#body_main_about .body_about {
 	margin: 0;
 	width: 677px;
 	margin: 10px 0 0 0;
@@ -116,31 +125,47 @@ h3 {
 	border: solid 0px #946BD6;
 }
 
-#body_main2 .body_about p {
+#body_main_about .body_about p {
 	font-size: 16px;
 	width: 430px;
 	float:left;
 	line-height:20px;
-	padding-bottom:14px;
+	padding-bottom:8px;
 	text-align: justify;
 }
 
-
-
-#body_main2 .body_about h2{
+#body_main_about .body_about h2{
 	font-family:fantasy;
 	padding-top: 10px;
 	text-align:left;
 	padding-bottom:20px;
-	letter-spacing: 3px
+	letter-spacing: 3px;
 }
 
-#body_main2 .body_about img{
+#body_main_about .body_about img{
 	width: 275px;
 	float: right;
-	margin: -339px -43px 0 0;
+	margin: -340px -43px 0 0;
 	padding: 0;
 }
+
+#body_main_about .body_left_about {
+	float: left;
+	width: 203px;
+	height: 406px;
+	margin: 10px;
+	border: black 0px solid;
+	text-align: left;
+	padding: 10px 0 0 7px;
+	background: #D7BFAE;
+	min-height: 400px;
+}
+
+#body_main_about .body_left_about p {
+	margin-left: 20px; 
+}
+
+
 
 #body_main .food img {
 	margin-top:10px;
@@ -172,32 +197,16 @@ h3 {
 #body_main2 .body_left_home {
 	float: left;
 	width: 203px;
-	height: 594px;
+	height: 584px;
 	margin: 10px;
 	border: black 0px solid;
 	text-align: left;
 	padding: 10px 0 0 7px;
 	background: #D7BFAE;
-	min-height: 594px;
+	min-height: 584px;
 }
 
 #body_main2 .body_left_home p {
-	margin-left: 20px; 
-}
-
-#body_main2 .body_left_about {
-	float: left;
-	width: 203px;
-	height: 406px;
-	margin: 10px;
-	border: black 0px solid;
-	text-align: left;
-	padding: 10px 0 0 7px;
-	background: #D7BFAE;
-	min-height: 400px;
-}
-
-#body_main2 .body_left_about p {
 	margin-left: 20px; 
 }
 
@@ -283,15 +292,15 @@ h3 {
 	background: white;
 	float: left;
 	width: 680px;
-	margin-left: 30px;
-	padding: 25px 0 20px 0;
+	margin-left: 50px;
+	padding: 15px 0 20px 0;
 	border: black 0px solid ;
 	text-align: left;
 	display: block;
 	font-family: 'Spicy Rice', cursive;
 	font-size: 22px;
 	color: #824AC2;
-	letter-spacing: 3px
+	letter-spacing: 4px
 }
 
 
