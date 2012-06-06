@@ -4,12 +4,15 @@ body {
 	/*background: #F7E4CC;
 	background: #A68064;*/
 	background: url('pattern5.gif');
+
 }
 
 .container {
 	width: 970px;
 	margin: 25px auto;
 	background: url("back1.png");
+	box-shadow: -20px -20px 5px #000;
+	-webkit-box-shadow: -20px -20px 5px #000;
 }
 
 .header {
@@ -115,12 +118,12 @@ h3 {
 }
 
 #body_main2 .body_about p {
-	font-size: 17px;
+	font-size: 16px;
 	width: 430px;
 	float:left;
-	line-height:24px;
-	padding-bottom:15px
-
+	line-height:20px;
+	padding-bottom:15px;
+	text-align: justify;
 }
 
 
@@ -136,7 +139,7 @@ h3 {
 #body_main2 .body_about img{
 	width: 275px;
 	float: right;
-	margin: -240px -45px 0 0;
+	margin: -343px -45px 0 0;
 	padding: 0;
 }
 
@@ -419,29 +422,41 @@ background: url("back1.png");
 
 #body_main .calendar {
 	border: hidden;
-	width: 600px;
-	height: 350px;
+	width: 500px;
+	height: 400px;
 	float: left;
 	margin: 20px 0 15px 20px; 
 }
 
 #body_main .calendar iframe {
 	border: hidden;
-	width: 600px;
-	height: 350px;
+	width: 500px;
+	height: 400px;
 	float: left;
 	margin: 14px 0 15px 0; 
 }
 
 #body_main .textsection {
 	margin: 62px 20px 20px 20px;
-	width: 300px;
+	width: 400px;
 	float: right;
-	
+}
+
+#body_main .textsection img {
+	width: 191px;
+}
+
+#body_main .textsection .caption {
+	width: 150px;
+	margin: -190px 10px 0 210px;
 }
 
 #body_main .textsection p{
-	font-size: medium
+	font-size: 17px;
+	width: 430px;
+	float:left;
+	line-height:24px;
+	padding-bottom:15px
 	
 }
 
@@ -540,16 +555,14 @@ background: url("back1.png");
 #gallery ul li span {
 	display:none;
 	position:absolute;
-	margin-left:40px;
-	margin-top:450px;
-	width:600px;
-	font-family:verdana,
-	arial, sans-serif;
-	color:#06a;
-	font-size:11px;
-	line-height:15px;
-	text-align:justify;
+	left:400px;
+	top:455px;
+	width:185px;
+	font-size:17px;
+	text-align:right;
 }
+
+
 
 #gallery ul li span b {
 	color:#444;
