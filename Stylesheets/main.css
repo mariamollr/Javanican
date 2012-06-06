@@ -11,8 +11,7 @@ body {
 	width: 970px;
 	margin: 25px auto;
 	background: url("back1.png");
-	box-shadow: -20px -20px 5px #000;
-	-webkit-box-shadow: -20px -20px 5px #000;
+	border: 1px solid #8B7D6B;
 }
 
 .header {
