@@ -193,7 +193,7 @@ h3 {
 	width: 370px;
 	margin: 0;
 	float:left;
-	padding: 25px 0 8px 30px;
+	padding: 15px 0 8px 30px;
 	border: black 0px solid ;
 	text-align: left;
 	display: block;
@@ -217,6 +217,7 @@ h3 {
 	color: #70523D;
 	letter-spacing: 0px
 }
+
 #body_main2 .event img{
 	width: 220px;
 	margin: 15px 200px 0 80px;
@@ -267,7 +268,7 @@ h3 {
 	float: left;
 	width: 680px;
 	margin-left: 30px;
-	padding: 8px 0 20px 0;
+	padding: 25px 0 20px 0;
 	border: black 0px solid ;
 	text-align: left;
 	display: block;
