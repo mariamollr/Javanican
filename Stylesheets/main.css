@@ -79,7 +79,7 @@ h3 {
 	padding: 0;
 	border: inherit;
 	background: white;
-		min-height: 633px;
+	min-height: 633px;
 
 }
 
@@ -94,7 +94,7 @@ h3 {
 	padding: 0;
 	border: none;
 	background: white;
-	min-height: 599px;
+	min-height: 438px;
 }
 
 #body_main .food {
@@ -121,7 +121,7 @@ h3 {
 	width: 430px;
 	float:left;
 	line-height:20px;
-	padding-bottom:15px;
+	padding-bottom:14px;
 	text-align: justify;
 }
 
@@ -138,7 +138,7 @@ h3 {
 #body_main2 .body_about img{
 	width: 275px;
 	float: right;
-	margin: -343px -45px 0 0;
+	margin: -339px -43px 0 0;
 	padding: 0;
 }
 
@@ -169,21 +169,38 @@ h3 {
 	font-size: medium;
 }
 
-#body_main2 .body_left {
+#body_main2 .body_left_home {
 	float: left;
 	width: 203px;
-	height: 586px;
+	height: 594px;
 	margin: 10px;
 	border: black 0px solid;
 	text-align: left;
 	padding: 10px 0 0 7px;
 	background: #D7BFAE;
-	min-height: 590px;
+	min-height: 594px;
 }
 
-#body_main2 .body_left p {
+#body_main2 .body_left_home p {
 	margin-left: 20px; 
 }
+
+#body_main2 .body_left_about {
+	float: left;
+	width: 203px;
+	height: 406px;
+	margin: 10px;
+	border: black 0px solid;
+	text-align: left;
+	padding: 10px 0 0 7px;
+	background: #D7BFAE;
+	min-height: 400px;
+}
+
+#body_main2 .body_left_about p {
+	margin-left: 20px; 
+}
+
 
 
 #body_main2 .event h4{
