@@ -15,7 +15,7 @@ body {
 .header {
 	/*background: url("banner.png");
 	height: 250px;*/
-	background: url("cover.png");
+	background: url("header.png");
 	height: 200px;
 	padding-bottom:27px;
 	margin-top: 15px;
@@ -583,7 +583,7 @@ background: url("back1.png");
 #gallery ul li span {
 	display:none;
 	position:absolute;
-	left:400px;
+	left:395px;
 	top:455px;
 	width:185px;
 	font-size:17px;
