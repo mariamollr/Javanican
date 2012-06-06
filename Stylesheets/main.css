@@ -11,8 +11,7 @@ body {
 	width: 970px;
 	margin: 25px auto;
 	background: url("back1.png");
-	box-shadow: -20px -20px 5px #000;
-	-webkit-box-shadow: -20px -20px 5px #000;
+	border: 1px solid #8B7D6B;
 }
 
 .header {
@@ -467,9 +466,13 @@ background: url("back1.png");
 	margin: 40px 40px 20px 0;
 }
 
-#body_main .textsection2 {
-	float: left;
-	margin: 60px;
+#body_main .textsection2{
+	float: right;
+	margin: 40px 25px;
+}
+
+#streets {
+	margin: 45px 0 0 30px;
 }
 
 #body_main .gallery_list {
@@ -511,7 +514,7 @@ background: url("back1.png");
 
 #gallery {
 	width:968px;
-	height: 700px;
+	height: 600px;
 	position:relative;
 	border:1px solid #ddd;
 	background: white;
@@ -533,7 +536,7 @@ background: url("back1.png");
 	margin: 40px 0 0 0;
 	width:350px;
 	float:right;
-	height:610px;
+	height:500px;
 	overflow:auto;
 }
 
