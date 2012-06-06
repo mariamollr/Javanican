@@ -4,12 +4,15 @@ body {
 	/*background: #F7E4CC;
 	background: #A68064;*/
 	background: url('pattern5.gif');
+
 }
 
 .container {
 	width: 970px;
 	margin: 25px auto;
 	background: url("back1.png");
+	box-shadow: -20px -20px 5px #000;
+	-webkit-box-shadow: -20px -20px 5px #000;
 }
 
 .header {
