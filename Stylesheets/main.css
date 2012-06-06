@@ -1,9 +1,7 @@
 body {
 	color: #70523D;
 	font: 92%/1.5 "Times New Roman";
-	/*background: #F7E4CC;
-	background: #A68064;*/
-	background: url('pattern5.gif');
+	background: url('pattern1.gif');
 
 }
 
@@ -482,7 +480,7 @@ background: url("back1.png");
 	width: 430px;
 	float:left;
 	line-height:24px;
-	padding-bottom:15px
+	padding-bottom:15px;
 	
 }
 
@@ -493,12 +491,12 @@ background: url("back1.png");
 }
 
 #body_main .textsection2{
-	float: right;
-	margin: 40px 25px;
+	float: left;
+	margin: 40px 0px 0 40px;
 }
 
 #streets {
-	margin: 45px 0 0 30px;
+	margin: 65px 0 0 0px;
 }
 
 #body_main .gallery_list {
@@ -579,7 +577,7 @@ background: url("back1.png");
 	display:block;
 	width: 100px;
 	height: 80px;
-	margin-top: -6px;
+	margin-top: -12px;
 }
 
 #gallery ul li span {
@@ -600,9 +598,8 @@ background: url("back1.png");
 
 /* required for IE5.x and IE6 to display the start image size correctly */
 #gallery ul li.click i img.default {
-	margin:5px auto 0 auto;
-	max-width:545px;
-	max-height:545px;
+	margin:5px 20px 0 40px;
+	
 }
 
 #gallery ul li.click {
@@ -612,7 +609,7 @@ background: url("back1.png");
 
 #gallery ul li.click i {
 	position:absolute;
-	left:40px;
+	right:390px;
 	top:40px;
 
 }
