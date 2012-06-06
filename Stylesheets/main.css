@@ -440,7 +440,7 @@ background: url("back1.png");
 	width: 500px;
 	height: 400px;
 	float: left;
-	margin: 20px 0 15px 20px; 
+	margin: 20px 0 10px 20px; 
 }
 
 #body_main .calendar iframe {
@@ -589,7 +589,7 @@ background: url("back1.png");
 
 /* required for IE5.x and IE6 to display the start image size correctly */
 #gallery ul li.click i img.default {
-	margin:5px 20px 0 40px;
+	margin:5px 20px 0 33px;
 	
 }
 
