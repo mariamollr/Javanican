@@ -1,12 +1,4 @@
 
-  //  Script:       Animated Image
-  //  Version:      1.0
-  //  Last Updated: June 12th 1998
-  //  Author:       Scott Brady
-  //  Org:          HotSource HTML Help
-  //  Email:        webmaster@sbrady.com
-  //  Website:      http://www.sbrady.com/hotsource/
-
 if (document.images) {     // Preloaded images
     demo1 = new Image();
     demo1.src = "Images/home/purpleporn3.jpg";
