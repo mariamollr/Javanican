@@ -53,6 +53,10 @@ h3 {
 	color: #D7BFAE;
 }
 
+.header a:hover {
+	text-decoration: none;
+}
+
 #body_main .pics {
 	border: hidden;
 }
