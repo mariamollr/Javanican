@@ -208,7 +208,15 @@ h3 {
 	margin-left: 20px; 
 }
 
+#body_main2 .body_left_home img {
+	float: left;
+	width: 155px;
+}
 
+#body_main_about .body_left_about img {
+	float: left;
+	width: 155px;
+}
 
 #body_main2 .event h4{
 	background: white;
@@ -471,18 +479,23 @@ background: url("back1.png");
 }
 
 #body_main .textsection .caption {
-	width: 150px;
+	width: 180px;
 	margin: -190px 10px 0 210px;
+	line-height:24px;
+	padding-bottom:15px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 17px;
 }
 
 #body_main .textsection p{
 	font-size: 17px;
-	width: 430px;
+	width: 400px;
 	float:left;
 	line-height:24px;
 	padding-bottom:15px;
 	
 }
+
 
 #body_main .map {
 	float: right;
@@ -496,7 +509,7 @@ background: url("back1.png");
 }
 
 #streets {
-	margin: 65px 0 0 0px;
+	margin: 30px 0 0 0px;
 }
 
 #body_main .gallery_list {
