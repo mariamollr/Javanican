@@ -503,9 +503,13 @@ background: url("back1.png");
 	margin: 40px 40px 20px 0;
 }
 
-#body_main .textsection2{
+#body_main .textsection2 {
 	float: left;
 	margin: 40px 0px 0 40px;
+	line-height:24px;
+	padding-bottom:15px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 17px;
 }
 
 #streets {
