@@ -15,7 +15,7 @@ body {
 .header {
 	/*background: url("banner.png");
 	height: 250px;*/
-	background: url("cover.png");
+	background: url("header.png");
 	height: 200px;
 	padding-bottom:27px;
 	margin-top: 15px;
@@ -449,7 +449,7 @@ background: url("back1.png");
 	width: 500px;
 	height: 400px;
 	float: left;
-	margin: 20px 0 15px 20px; 
+	margin: 20px 0 10px 20px; 
 }
 
 #body_main .calendar iframe {
@@ -583,7 +583,7 @@ background: url("back1.png");
 #gallery ul li span {
 	display:none;
 	position:absolute;
-	left:400px;
+	left:395px;
 	top:455px;
 	width:185px;
 	font-size:17px;
@@ -598,7 +598,7 @@ background: url("back1.png");
 
 /* required for IE5.x and IE6 to display the start image size correctly */
 #gallery ul li.click i img.default {
-	margin:5px 20px 0 40px;
+	margin:5px 20px 0 33px;
 	
 }
 
