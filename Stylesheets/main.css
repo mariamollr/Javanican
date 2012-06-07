@@ -15,7 +15,7 @@ body {
 .header {
 	/*background: url("banner.png");
 	height: 250px;*/
-	background: url("header.png");
+	background: url("top.png");
 	height: 200px;
 	padding-bottom:27px;
 	margin-top: 15px;
@@ -33,9 +33,8 @@ body {
 }
 
 h1 {
-
 	font-family: 'Spicy Rice', cursive;
-	margin: 0 0 0 487px;
+	margin: 0 0 0 491px;
 	padding-top: 60px;
 	font-stretch: extra-expanded;
 	font-size: 24pt;
@@ -45,7 +44,7 @@ h1 {
 
 h3 {
 	font-family: 'Spicy Rice', cursive;
-	margin: 0 0 0 742px;
+	margin: 0 0 0 738px;
 	padding-top: 10px;
 	font-stretch: extra-expanded;
 	font-size: 16pt;
